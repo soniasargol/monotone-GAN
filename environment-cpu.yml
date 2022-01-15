@@ -1,0 +1,17 @@
+name: mgan_cpu
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pytorch
+  - torchvision
+  - pip
+  - cpuonly
+  - pip:
+    - h5py
+    - matplotlib
+    - seaborn
+    - tqdm
+    - gitpython

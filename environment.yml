@@ -1,0 +1,17 @@
+name: mgan
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit
+  - python=3.8.5
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+    - h5py
+    - matplotlib
+    - seaborn
+    - tqdm
+    - gitpython
